@@ -3,12 +3,20 @@
 
 :root {
     --main-title: clamp(1rem, 6.5vw + 1rem, 4rem);
+    --title: clamp(.1rem, 3.5vw + 1rem, 2.5rem);
     --main-subtitle: clamp(.1rem, .8vw + 1rem, 4rem);
 
     --link-text: clamp(.1rem, 2.5vw + 1rem, 1.5rem);
-    --fs-600: clamp(1rem, 6.5vw + 1rem, 4rem);
+    --fs-18: clamp(.1rem, 1vw + 1rem, 1.5rem);
+    --small-title-text: clamp(1rem, .4vw + 1rem, 1.5rem);
     --fs-500: 1.5rem;
     --fs-400: 1rem;
+
+    /* --rules-title: clamp(.1rem, 1vw + 1rem, 1.5rem); */
+
+    --cyan: #A5C1C5;
+    --primary-color: #503C3C;
+    --secondary-color: #B5997D;
 }
 
 
@@ -42,9 +50,9 @@ body{
 
 
 .mainTopLinksWrap{
-    background-color: darkcyan;
+    background-color: #ffffff;
     width: 100%;
-    height: AUTO;/*TODO: change to auto  */
+    height: auto;
     border-bottom-left-radius: 7vw;
     border-bottom-right-radius: 7vw;
 
@@ -62,7 +70,7 @@ body{
     font-size: var(--main-title);
     text-align: center;
     
-    color: #503C3C;
+    color: var(--primary-color);
     /* margin-top: 6.5dvh;
     line-height: 5dvh; */
     margin-top: 10vh;
@@ -138,9 +146,254 @@ body{
     font-weight: 350;
 }
 
+.welcomeSvg{
+    width: 70%;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: .6;
+}
 
+.coloredCyanThumb{
+    background-color: var(--cyan);
+    height: 5px;
+    width: 40%;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    display: block;
+    clear: both;
+    position: relative;
+}
 
+.middleWelcomeMsg{
+    width: 100%;
+    height: auto;
+    
 
+    background-image: url('../assets/img/entrance.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.welcomeMsgWrap{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+
+    padding: 7%;
+    padding-top: 10vh;
+
+    outline: 7px solid white;
+    outline-offset: 10px;
+
+    max-width: 395px;
+    
+}
+
+.welcomeMsgWrap span{
+    font-family: 'Rubik';
+    font-size: var(--fs-18);
+    
+}
+
+.WelcomeMsgText{
+    font-weight: 300;
+}
+
+.subWelcomeMsgText{
+    font-weight: 400;
+    color: var(--primary-color);
+
+}
+
+.keysMessage{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    margin-bottom: 9vh;
+}
+
+.keysMessage span{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: block;
+    font-family: 'Rubik';
+    font-size: var(--fs-18);
+    color: white;
+    font-weight: 350;
+}
+
+.commonTitle{
+    font-family: 'Cormorant';
+    font-size: var(--title);
+    display: block;
+    color: var(--primary-color);
+    text-align: start;
+    margin-left: 5vw;
+}
+
+.houseItems{
+    margin-top: 3.5vh;
+    position: relative;
+    display: grid;
+    row-gap: 3vh;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 7vh;
+}
+
+.houseItem{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: min-content; */
+}
+
+.houseItemTitle{
+    font-size: var(--small-title-text);
+    white-space: nowrap;
+    font-family: 'Rubik';
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.houseItemImage{
+    display: block;
+    width: 25vw;
+    border-radius: 10%;
+    margin-top: .5vh;
+}
+
+.otherIntructionsWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 4vh;
+    margin-bottom: 7vh;
+}
+
+.eachInstructon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: min-content;
+    background-color: var(--secondary-color);
+
+    padding-left: 6vw;
+    padding-right: 7vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    box-sizing: border-box;
+
+    margin-bottom: 2vh;
+}
+
+.eachInstructon span{
+    font-family: 'Rubik';
+    font-weight: 400;
+    /* width: 50%; */
+    min-width: 180px;
+    color: white;
+    text-align: center;
+    font-size: var(--small-title-text);
+
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.instructionOptionIcon{
+    width: 6vh;
+    filter: invert(100%);
+}
+
+.instructionOptionPlayIcon{
+    /* width: 10px; */
+    height: 3vh;
+    filter: invert(100%);
+}
+
+.houseRulesWrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+
+.ruleWrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+
+.ruleWrap span{
+    font-size: var(--fs-18);
+}
+
+.ruleTitle{
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.ruleText{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bottomMsg{
+    width: 80%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    width: 100%;
+    padding: 3vh;
+    padding-bottom: 10vh;
+    margin-top: 10vh;
+    background-color: var(--primary-color);
+
+}
+
+.labrujaInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.labrujaInfo img{
+    height: 40px;
+    opacity: .7;
+}
+
+.labrujaInfo span{
+    font-family: 'Cormorant';
+    color: white;
+    opacity: .7;
+    font-size: var(--link-text);
+    margin-left: 15px;
+    
+}
 
 
 
@@ -166,5 +419,64 @@ body{
     .topLinksWrap{
         width: 33vw;
     }
+
+    .welcomeSvg {
+        width: 30%;
+        margin-top: 10vh;
+    }
+
+    .coloredCyanThumb{
+        width: 15%;
+        margin-bottom: 13vh;
+    }
+
+    .welcomeMsgWrap {
+        width: 39%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.95);
+        border-top-left-radius: 1000px;
+        border-top-right-radius: 1000px;
+        padding: 4%;
+        padding-top: 9%;
+        outline: 7px solid white;
+        outline-offset: 10px;
+    }
+
+    .middleWelcomeMsg{
+        border-top-left-radius: 7.5vw;
+        border-top-right-radius: 7.5vw;
+    }
+    
+    .keysMessage{
+        border-bottom-left-radius: 3vw;
+        border-bottom-right-radius: 3vw;    
+    }
+
+    .houseItems{
+        margin-top: 3.5vh;
+        position: relative;
+        display: grid;
+        row-gap: 10vh;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .houseItemImage{
+        margin-top: 2vh;
+        width: 13vw;
+        border-radius: 10%;
+    }
+
+    .eachInstructon span{
+        min-width: 230px;
+    }
+
+
+
+
+
+
+
 
   }
