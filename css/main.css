@@ -116,7 +116,7 @@ body{
     font-weight: 300;
     white-space: nowrap;
     min-width: 205px;
-
+    color: black;
 }
 
 .topLinksWrap img{
@@ -293,13 +293,11 @@ body{
     align-items: center;
     width: min-content;
     background-color: var(--secondary-color);
-
     padding-left: 6vw;
     padding-right: 7vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
     box-sizing: border-box;
-
     margin-bottom: 2vh;
 }
 
