@@ -103,6 +103,7 @@ body{
     letter-spacing: 1.5px;
     color: var(--black-text);
     margin-bottom: 5vh;
+    margin-top: 1vh;
     
 }
 
@@ -144,7 +145,6 @@ body{
 }
 
 .topMessage{
-    /* margin-top: 2vh; */
     font-family: var(--Rubik);
     color: var(--black-text);
     font-size: var(--font-size-lg);
@@ -157,7 +157,7 @@ body{
 
 }
 
-.wifiImage{
+.middleInfoImage{
     width: 100%;
 }
 
@@ -230,6 +230,7 @@ body{
     margin-top: 2vh;
     font-size: var(--font-size-md);
     font-family: var(--Rubik);
+    height: 170px;
 }
 
 
@@ -260,8 +261,6 @@ body{
     font-size: var(--font-size-xxxl);
     font-family: var(--Cormorant);
     color: var(--primary-color);
-    margin-top: 5VH;
-    margin-bottom: 2vh;
     margin-left: 25px;
 }
 
@@ -326,8 +325,115 @@ body{
     border-radius: 7px;
 }
 
+.brownDivider{
+    width: 70%;
+    border-radius: 50px;
+    background-color: var(--secondary-color);
+    padding-bottom: 1.5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
 
+.restaurantsWrap{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
 
+.barsWrap{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.emergencyItemWrap{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+}
+
+.emergencyItem{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emergencyIcon{
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.emergencyInfoWrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.emergencyTitle{
+    font-family: var(--Rubik);
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    color: black;
+    opacity: .85;
+    letter-spacing: 1px;
+}
+
+.emergencyNumberText{
+    font-family: var(--Rubik);
+    font-size: var(--font-size-xl);
+    font-weight: 300;
+    color: black;
+    /* opacity: .85; */
+
+}
+
+.emergencyNumberWrap{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emergencyPhoneIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.amenitiesGrid{
+    margin-top: 3.5vh;
+    margin-bottom: 7vh;
+    position: relative;
+    display: grid;
+    row-gap: 3vh;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: flex-end;
+}
+
+.amenityItem{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.amenityItem span{
+    width: min-content;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    font-family: var(--Rubik);
+    opacity: .85;
+    font-weight: 400;
+}
+
+.amenityItem img{
+    margin-top: 10px;
+    width: 60px;
+    opacity: .7;
+}
 
 
 
@@ -393,7 +499,7 @@ body{
         margin-right: auto;
     }
 
-    .wifiImage{
+    .middleInfoImage{
         width: 50%;
         margin-left: auto;
         margin-right: auto;

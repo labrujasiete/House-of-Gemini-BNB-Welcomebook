@@ -75,6 +75,7 @@ body{
     line-height: 5dvh; */
     margin-top: 10vh;
     line-height: 100%;
+    opacity: .75;
 }
 
 .mainSubTitle{
@@ -85,7 +86,8 @@ body{
     margin-top: 2vh;
     margin-bottom: 6vh;
     font-weight: 300;
-    color: rgba(0, 0, 0, 0.55);
+    color: black;
+    opacity: .55;
 }
 
 
@@ -246,6 +248,8 @@ body{
     text-align: start;
     margin-left: 5vw;
 }
+
+
 
 .houseItems{
     margin-top: 3.5vh;
