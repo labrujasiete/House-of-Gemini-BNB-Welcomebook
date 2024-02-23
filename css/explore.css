@@ -37,9 +37,11 @@ a{
 
 html{
     background-color: white;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
+    height: auto;
     margin: 0;
     padding: 0;
+
 }
 
 body{
@@ -51,8 +53,14 @@ body{
     margin: 0;
     padding: 0;
     height: auto;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
     background-color: white;
+
+    background-image: url('../assets/img/cactus_background_transparent.png'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: 60%; /* or specify a percentage like background-size: 50%; */
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 
@@ -100,11 +108,12 @@ body{
     color: var(--black-text);
     margin-bottom: 1vh;
     margin-top: 1vh;
-    
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mainMessage{
-    margin-top: 1vh;
     font-family: var(--Rubik);
     color: var(--black-text);
     font-size: var(--font-size-lg);
@@ -113,7 +122,6 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-bottom: 10%;
 }
 
 .middleInfoImage{
@@ -126,7 +134,50 @@ body{
     margin-right: auto;
 }
 
+.mainImage{
+    width: 80%;
+    height: auto;
 
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+
+    outline: 3px solid var(--secondary-color);
+    outline-offset: 10px;
+
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+}
+
+.spacer{
+    padding-bottom: 5vh;
+}
+
+.bulletTitle{
+    font-family: var(--Rubik);
+    color: var(--black-text);
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+
+ul, ol{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    font-weight: 400;
+    font-family: var(--Rubik);
+    color: var(--black-text);
+    font-size: var(--font-size-md);
+
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
 
 
 
@@ -179,6 +230,10 @@ body{
   /* Desktop styles */
   @media only screen and (min-width: 64em) {
 
+    body{
+        background-size: 16%;
+    }
+
 
 
     .videoSuperWrap{
@@ -192,6 +247,22 @@ body{
         margin-left: auto;
         margin-right: auto;
         border-radius: 15px;
+    }
+
+    .mainImage{
+        width: 30%;
+        height: auto;
+    
+        margin-left: auto;
+        margin-right: auto;
+        border-top-left-radius: 1000px;
+        border-top-right-radius: 1000px;
+    
+        outline: 4px solid var(--secondary-color);
+        outline-offset: 10px;
+    
+        margin-top: 7vh;
+        margin-bottom: 7vh;
     }
 
 

@@ -37,7 +37,8 @@ a{
 
 html{
     background-color: white;
-    height: -webkit-fill-available;
+    /* height: -webkit-fill-available; */
+    height: 100dvh;
     margin: 0;
     padding: 0;
 }
@@ -50,8 +51,8 @@ body{
     max-width: 1440px;
     margin: 0;
     padding: 0;
-    height: auto;
-    height: -webkit-fill-available;
+    height: 100vh;
+    /* height: -webkit-fill-available; */
     background-color: white;
 }
 
