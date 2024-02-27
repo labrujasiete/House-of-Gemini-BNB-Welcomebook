@@ -433,6 +433,7 @@ body{
     .mainTopLinksWrap{
         border-bottom-left-radius: 60px;
         border-bottom-right-radius: 60px;
+        background-image: url('../assets/img/main_background_desk.jpg');
     }
 
     .topLinksWrap{
