@@ -5,28 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="WineSip">
-    <meta property="og:description" content="WRITE SOME WORDS"> <!-- TODO: -->
-    <!-- <meta property="og:image" content="https://www.winesipapp.com/assets/img/wineSip_webAsset_META.jpg"> -->
+    <meta property="og:title" content="House of gemini">
+    <meta property="og:description" content="Welcome to House of Gemini, your serene retreat nestled in the heart of El Valle de Guadalupe. Our BnB Welcomebook is your guide to experiencing the beauty and tranquility of this enchanting destination. Immerse yourself in the charm of our accommodations, where modern comforts meet rustic elegance. Explore the picturesque vineyards, indulge in delectable cuisine, and unwind amidst the breathtaking scenery. Whether you're seeking a romantic getaway or a rejuvenating escape, House of Gemini promises an unforgettable experience in this idyllic locale. Discover your perfect stay with us today.">
+    <meta property="og:image" content="https://www.house-of-gemini.com/assets/img/entrance.jpg">
     <meta property="og:url" content="https://www.houseofgemini.com">
     <meta property="og:type" content="website">
     
     
     <title>House of Gemini</title>
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/winesip-favicon.png"> -->
-    <meta name="description" content=""><!-- TODO: -->
-    <meta name="keywords" content=""><!-- TODO: -->
-    <meta name="keywords" content=""><!-- TODO: -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/hog_favicon.png">
+    <meta name="description" content="Welcome to House of Gemini, your serene retreat nestled in the heart of El Valle de Guadalupe. Our BnB Welcomebook is your guide to experiencing the beauty and tranquility of this enchanting destination. Immerse yourself in the charm of our accommodations, where modern comforts meet rustic elegance. Explore the picturesque vineyards, indulge in delectable cuisine, and unwind amidst the breathtaking scenery. Whether you're seeking a romantic getaway or a rejuvenating escape, House of Gemini promises an unforgettable experience in this idyllic locale. Discover your perfect stay with us today.">
+    <meta name="keywords" content="House of Gemini, BnB Welcomebook, El Valle de Guadalupe, Retreat, Serene, Accommodations, Vineyards, Cuisine, Rustic elegance, Tranquility, Romantic getaway, Rejuvenating escape, Enchanting destination, Picturesque, Relaxation">
+    <meta name="keywords" content="House of Gemini, Welcome Guide, Guadalupe Valley, Sanctuary, Peaceful, Lodgings, Wineries, Gastronomy, Rural Charm, Calmness, Intimate Retreat, Revitalizing Break, Magical Setting, Scenic Beauty, Unwinding">
+
+
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/main.js"></script>
     <script>
+            
+        $(document).ready(function(){
 
-        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(() => {
+                // $(".fadeInElem").css("visibility", "visible").css("opacity", "1");
+                $(".fadeInElem").each(function(index) {
+                    var $element = $(this);
+                    setTimeout(() => {
+                        $element.css("visibility", "visible").css("opacity", "1");
+                    }, 250*index);
+                });
+                
+            }, 250);
+            
 
         });
+        
+    
 
+    
     </script>
 
 
@@ -36,46 +53,64 @@
 <body>
 
     <div class="mainTopLinksWrap">
-        <span class="mainTitle">House of Gemini<br>Welcome Book</span>
-        <span class="mainSubTitle">Valle de Guadalupe, El porvenir 22577</span>
+        <div class="fadeInElem">
+            <span class="mainTitle">House of Gemini<br>Welcome Book</span>
+        </div>
+        <div class="fadeInElem">
+            <span class="mainSubTitle">Valle de Guadalupe, El porvenir 22577</span>
+        </div>
    
-        <a href="./view/checkinout.html" class="topLinksWrap">
-            <img src="./assets/icons/deal.png" alt="">
-            <span>CHECK IN / OUT</span>
-        </a>
+        <div class="fadeInElem">
+            <a href="./view/checkinout.html" class="topLinksWrap">
+                <img src="./assets/icons/deal.png" alt="">
+                <span>CHECK IN / OUT</span>
+            </a>
+        </div>
    
-        <a href="./view/wifi.html" class="topLinksWrap">
-            <img src="./assets/icons/wifi.png" alt="">
-            <span>Wi-Fi</span>
-        </a>
+        <div class="fadeInElem">
+            <a href="./view/wifi.html" class="topLinksWrap">
+                <img src="./assets/icons/wifi.png" alt="">
+                <span>Wi-Fi</span>
+            </a>
+        </div>
    
-        <a href="./view/transport.html" class="topLinksWrap">
-            <img src="./assets/icons/bus.png" alt="">
-            <span>TRANSPORT</span>
-        </a>
+        <div class="fadeInElem">
+            <a href="./view/transport.html" class="topLinksWrap">
+                <img src="./assets/icons/bus.png" alt="">
+                <span>TRANSPORT</span>
+            </a>
+        </div>
    
-        <a href="./view/placestosee.html" class="topLinksWrap">
-            <img src="./assets/icons/location.png" alt="">
-            <span>PLACES TO SEE</span>
-        </a>
+        <div class="fadeInElem">
+            <a href="./view/placestosee.html" class="topLinksWrap">
+                <img src="./assets/icons/location.png" alt="">
+                <span>PLACES TO SEE</span>
+            </a>
+        </div>
    
-        <a href="./view/emergency.html" class="topLinksWrap">
-            <img src="./assets/icons/first-aid-kit.png" alt="">
-            <span>EMERGENCY</span>
-        </a>
+        <div class="fadeInElem">
+            <a href="./view/emergency.html" class="topLinksWrap">
+                <img src="./assets/icons/first-aid-kit.png" alt="">
+                <span>EMERGENCY</span>
+            </a>
+        </div>
    
-        <a href="./view/amenities.html" class="topLinksWrap">
-            <img src="./assets/icons/amenities.png" alt="">
-            <span>AMENITIES</span>
-        </a>
+        <div class="fadeInElem">
+            <a href="./view/amenities.html" class="topLinksWrap">
+                <img src="./assets/icons/amenities.png" alt="">
+                <span>AMENITIES</span>
+            </a>
+        </div>
 
         <!-- <a href="whatsapp://send?phone=+526644460266"> -->
-        <a href="tel:+526644460266">
-            <div class="contactPhoneWrap">
-                <img src="./assets/icons/whatsapp.png" alt="">
-                <span>+52-664-446-0266</span>
-            </div>
-        </a>
+        <div class="fadeInElem">
+            <a href="tel:+526644460266">
+                <div class="contactPhoneWrap">
+                    <img src="./assets/icons/whatsapp.png" alt="">
+                    <span>+52-664-446-0266</span>
+                </div>
+            </a>
+        </div>
 
     </div><!-- mainTopLinksWrap END -->
 
@@ -222,6 +257,12 @@
             <span>LaBruja Designs</span>
         </div>
     </div>
+
+
+
+
+
+
     
 </body>
 </html>

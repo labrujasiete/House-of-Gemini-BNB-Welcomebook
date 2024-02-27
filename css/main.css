@@ -45,8 +45,16 @@ body{
     height: -webkit-fill-available;
     background-color: white;
 }
+/* 
+#fadeInElem{
+    display: none;
+} */
 
-
+.fadeInElem{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1s ease-in-out;
+}
 
 
 .mainTopLinksWrap{
@@ -243,7 +251,7 @@ body{
 .commonTitle{
     font-family: 'Cormorant';
     font-size: var(--title);
-    display: block;
+    /* display: block; */
     color: var(--primary-color);
     text-align: start;
     margin-left: 5vw;
