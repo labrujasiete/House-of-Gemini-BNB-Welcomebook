@@ -1,0 +1,158 @@
+{
+
+    "home": {
+
+        "en": {
+            "top-link-checkin": "CHECK IN / OUT",
+            "top-link-wifi": "Wi-Fi",
+            "top-link-transport": "TRANSPORT",
+            "top-link-places": "PLACES TO SEE",
+            "top-link-emerg": "EMERGENCY",
+            "top-link-amenities": "AMENITIES",
+            "welcome-msg-text": "Welcome to Valle de\u000AGuadalupe! We're excited to have you at our House of Gemini in this stunning wine region. Our cozy retreat awaits, filled with local charm and comfort.",
+            "sub-welcome-msg-text": "Welcome to your home away from home!",
+            "keys-msg": "2 keys and 1 remote control are given upon your arrival",
+            "title-explore": "EXPLORE THE HOUSE",
+            "house-item-kitchen": "KITCHEN",
+            "house-item-living": "LIVING ROOM",
+            "house-item-bedroom": "BEDROOM",
+            "house-item-bathroom": "BATHROOM",
+            "house-item-jacuzzi": "JACUZZI",
+            "house-item-pit": "GAS FIRE PIT",
+            "house-item-garage": "GARAGE",
+            "house-item-lunch": "LUNCH AREA",
+            "title-instructions": "OTHER INSTRUCTIONS",
+            "inst-aircon": "HOW TO USE AIRCON",
+            "inst-lights": "HOW TO USE OUTER LIGHTS",
+            "inst-pit": "HOW TO USE FIRE PIT",
+            "inst-jacuzzi": "HOW TO USE JACUZZI",
+            "inst-boiler": "HOW TO USE BOILER",
+            "title-rules": "HOUSE RULES",
+            "rules-title-nosmoking": "• No Smoking",
+            "rules-text-nosmoking": "Smoking is strictly prohibited inside the premises. Designated smoking areas are available outside. Kindly dispose of cigarette butts responsibly.",
+            "rules-title-petpolicy": "• Pet Policy",
+            "rules-text-petpolicy": "We regret that we cannot accommodate pets at this time.",
+            "rules-title-occupy": "• Maximum Occupancy",
+            "rules-text-occupy": "The maximum occupancy for this accommodation is [Insert Maximum Occupancy]. This includes both adults and children.",
+            "rules-title-clean": "• Cleaning Expectations",
+            "rules-text-clean": "We kindly ask that you leave the accommodation in the same condition as you found it. Additional cleaning fees may apply for excessive mess or damage.",
+            "rules-title-safety": "• Safety and Security",
+            "rules-text-safety": "Your safety is our priority. Please ensure that doors and windows are securely locked when you're not in the accommodation. In case of emergency, contact [Insert Emergency Contact Information].",
+            "rules-title-behav": "• Guest Behavior",
+            "rules-text-behav": "Any disruptive or inappropriate behavior may result in immediate eviction without refund.",
+            "bottom-msg": "Thank you for choosing House of Gemini! We hope you have a wonderful stay."
+        },
+
+        "es": {
+            "top-link-checkin": "ENTRAR / SALIR",
+            "top-link-wifi": "Wi-Fi",
+            "top-link-transport": "TRANSPORTE",
+            "top-link-places": "DESTINO",
+            "top-link-emerg": "EMERGENCIA",
+            "top-link-amenities": "AMENIDADES",
+            "welcome-msg-text": "¡Bienvenidos al Valle de\u000A Guadalupe! Estamos emocionados de tenerte en nuestra Casa de Géminis en esta impresionante región vinícola. Nuestro acogedor refugio lo espera, lleno de encanto y comodidad locales.",
+            "sub-welcome-msg-text": "¡Bienvenido a su hogar lejos de casa!",
+            "keys-msg": "Se entregan 2 llaves y 1 control remoto a su llegada.",
+            "title-explore": "EXPLORA LA CASA",
+            "house-item-kitchen": "COCINA",
+            "house-item-living": "SALA",
+            "house-item-bedroom": "DORMITORIO",
+            "house-item-bathroom": "BAÑO",
+            "house-item-jacuzzi": "JACUZZI",
+            "house-item-pit": "FOGATA",
+            "house-item-garage": "COCHERA",
+            "house-item-lunch": "COMEDOR",
+            "title-instructions": "OTRAS INSTRUCCIONES",
+            "inst-aircon": "COMO USAR CLIMATIZACION",
+            "inst-lights": "COMO USAR LUCES EXTERNAS",
+            "inst-pit": "COMO USAR FOGATA DE GAS",
+            "inst-jacuzzi": "COMO USAR JACUZZI",
+            "inst-boiler": "COMO USAR BOILER",
+            "title-rules": "REGLAS DE LA CASA",
+            "rules-title-nosmoking": "• No Fumar",
+            "rules-text-nosmoking": "Está estrictamente prohibido fumar dentro del local. Hay áreas designadas para fumadores disponibles afuera. Por favor, deshazte de las colillas de cigarrillos de forma responsable.",
+            "rules-title-petpolicy": "• Política de mascotas",
+            "rules-text-petpolicy": "Lamentamos no poder alojar mascotas en este momento.",
+            "rules-title-occupy": "• Ocupación máxima",
+            "rules-text-occupy": "La ocupación máxima de este alojamiento es [Insertar ocupación máxima]. Esto incluye tanto a adultos como a niños.",
+            "rules-title-clean": "• Expectativas de limpieza",
+            "rules-text-clean": "Le rogamos que deje el alojamiento en las mismas condiciones en que lo encontró. Es posible que se apliquen cargos de limpieza adicionales por desorden o daño excesivo.",
+            "rules-title-safety": "• Seguridad y proteccion",
+            "rules-text-safety": "Su seguridad es nuestra prioridad. Asegúrese de que las puertas y ventanas estén bien cerradas cuando no esté en el alojamiento. En caso de emergencia, comuníquese con [Insertar información de contacto de emergencia].",
+            "rules-title-behav": "• Comportamiento del huésped",
+            "rules-text-behav": "Cualquier comportamiento disruptivo o inapropiado puede resultar en el desalojo inmediato sin reembolso.",
+            "bottom-msg": "¡Gracias por elegir House of Gemini! Esperamos que tengas una estancia maravillosa."
+        }
+
+        
+
+    },
+
+    "checkinout": {
+        "en": {
+            "mainTitle": "CHECK IN/OUT",
+            "mainSubTitle": "Arrival Information",
+            "highlight-title": "CODE GIVEN BY HOST",
+            "mainMessage": "For a seamless check-in and check-out experience, please follow these instructions. Upon arrival, locate the secured box provided with the given code. Inside, you'll find your keys for access to the property. Please ensure to securely lock the box after retrieving your keys. Similarly, when departing, return the keys to the secured box and lock it with the same code provided. This ensures the safety of the keys for future guests. Thank you for your cooperation, and enjoy your stay!"
+        },
+        
+        "es": {
+            "mainTitle": "ENTRAR / SALIR",
+            "mainSubTitle": "Informacion de llegada",
+            "highlight-title": "CÓDIGO DADO POR ANFITRIÓN",
+            "mainMessage": "Para una experiencia de check-in y check-out perfecta, siga estas instrucciones. A su llegada, ubique la caja segura provista del código proporcionado. En el interior encontrará las llaves de acceso a la propiedad. Asegúrese de cerrar la caja con llave de forma segura después de recuperar las llaves. Del mismo modo, al salir, devuelva las llaves a la caja segura y ciérrela con el mismo código proporcionado. Esto garantiza la seguridad de las llaves para futuros huéspedes. ¡Gracias por su cooperación y disfrute de su estancia!"
+        }
+    },
+
+    "wifi": {
+
+        "en": {
+            "mainTitle": "Wi-Fi Information",
+            "label-network": "Network",
+            "label-networkName": "bluetele4E11",
+            "label-password": "Password",
+            "label-password-number": "AA31838C",
+            "main-message": "Feel free to connect and enjoy high-speed internet during your stay. If you have any questions or need assistance, don't hesitate to reach out to us. We're here to make your experience as comfortable as possible."
+        },
+
+        "es": {
+            "mainTitle": "Información Wi-Fi",
+            "label-network": "Red",
+            "label-networkName": "bluetele4E11",
+            "label-password": "Contraseña",
+            "label-password-number": "AA31838C",
+            "main-message": "No dudes en conectarte y disfrutar de Internet de alta velocidad durante tu estancia. Si tiene alguna pregunta o necesita ayuda, no dude en comunicarse con nosotros. Estamos aquí para hacer que su experiencia sea lo más cómoda posible."
+        }
+
+
+
+    },
+
+
+
+
+
+
+
+    "kitchen": {
+        
+        "en": {
+            "mainTitle": "KITCHEN",
+            "mainSubTitle": "Kitchen instructions & maintenance",
+            "mainMessage": "Please maintain cleanliness by promptly washing dishes and wiping surfaces. Respect others by coordinating appliance use and keeping noise levels down. Label and store food properly, disposing of perishables promptly. Safely operate appliances and handle hot surfaces with care. Separate waste for recycling and report any issues to the host. Before checkout, ensure cleanliness and return items to their place. Thank you for helping create a pleasant shared kitchen experience."
+        },
+        
+        "es": {
+            "mainTitle": "COCINA",
+            "mainSubTitle": "Instrucciones y mantenimiento de la cocina",
+            "mainMessage": "Mantenga la limpieza lavando los platos y limpiando las superficies rápidamente. Respete a los demás coordinando el uso de los electrodomésticos y manteniendo bajos los niveles de ruido. Etiquete y almacene los alimentos adecuadamente, desechando los perecederos con prontitud. Opere los electrodomésticos de forma segura y manipule las superficies calientes con cuidado. Separe los residuos para reciclarlos e informe cualquier problema al anfitrión. Antes de realizar el pago, asegúrese de la limpieza y devuelva los artículos a su lugar. Gracias por ayudar a crear una agradable experiencia de cocina compartida."
+        }
+
+    }
+
+
+
+
+    
+}
+  

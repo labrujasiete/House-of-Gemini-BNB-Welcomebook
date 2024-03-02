@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/hog_favicon.png">
     <!-- <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" /> -->
     <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+    <script src="../js/loadLanguage.js"></script>
 </head>
 <body>
     
@@ -19,7 +20,7 @@
         <span>Wi-Fi</span>
     </div>
 
-    <span class="navigationSubTitle">Wi-Fi Information</span>
+    <span class="navigationSubTitle" id="mainTitle">Wi-Fi Information</span>
 
     <img src="../assets/img/wifi_placeholder.jpg" alt="" class="middleInfoImage">
 
@@ -28,23 +29,23 @@
     <div class="wifiInfoWrap">
 
         <div class="eachInfoWrap">
-            <div class="wifiLabel">Network</div>
-            <div class="wifiValue">bluetele4E11</div>
+            <div class="wifiLabel" id="label-network">Network</div>
+            <div class="wifiValue" id="label-networkName">bluetele4E11</div>
         </div>
         <div class="eachInfoWrap">
-            <div class="wifiLabel">Password</div>
-            <div class="wifiValue">AA31838C</div>    
+            <div class="wifiLabel" id="label-password">Password</div>
+            <div class="wifiValue" id="label-password-number">AA31838C</div>    
         </div>
 
     </div>
 
 
 
-    <span class="mainMessage">Feel free to connect and enjoy high-speed internet during your stay. If you have any questions or need assistance, don't hesitate to reach out to us. We're here to make your experience as comfortable as possible.</span>
+    <span class="mainMessage" id="main-message">Feel free to connect and enjoy high-speed internet during your stay. If you have any questions or need assistance, don't hesitate to reach out to us. We're here to make your experience as comfortable as possible.</span>
 
 
 
-
+    <div class="footer"></div>
 
 
 

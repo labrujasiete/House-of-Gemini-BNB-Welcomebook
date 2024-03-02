@@ -1,45 +1,45 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-    var checkBox = document.getElementById('langSwitch');
+    function getPageName(){
+        var path = window.location.pathname;
+        var fileNameWithExtension = path.split('/').pop(); // This gets "kitchen.html"
+        var fileName = fileNameWithExtension.split('.').shift(); // This gets "kitchen"
+        return fileName;
+    }
 
-    checkBox.addEventListener('change', function() {
-        // Check if the checkbox is checked
-        if (checkBox.checked) {
-            setLanguagePreference('es');
-            loadLanguageData(function(error, languageData) {
-                if (error) {
-                  console.error('Error loading language data:', error);
-                  return;
-                }
+    function getJsonPath(){
         
-                replaceTextContent('es', languageData);
-              });
+            const currentPath = window.location.pathname;
+            const depth = calculatePathDepth(currentPath);
+            let basePath = '';
+            for (let i = 0; i < depth; i++) {
+                basePath += '../';
+            }
+            basePath += 'langs/';
+            jsonLangFile = basePath + 'lang.json';
+            return jsonLangFile;
+
+    }
+
+    function calculatePathDepth(filePath) {
+        const matches = filePath.match(/\//g);
+        if (matches) {
+            return matches.length - 1;
         } else {
-            setLanguagePreference('en');
-            loadLanguageData(function(error, languageData) {
-                if (error) {
-                  console.error('Error loading language data:', error);
-                  return;
-                }
-        
-                replaceTextContent('en', languageData);
-              });
+            return 0;
         }
-    });
+    }
     
-
     function loadLanguageData(callback) {
-        fetch('./langs/lang.json')
+        fetch(getJsonPath())
             .then(response => response.json())
-            .then(data => callback(null, data['home']))
+            .then(data => callback(null, data[getPageName()]))
             .catch(error => callback(error, null));
     }
 
     function replaceTextContent(languageCode, languageData) {
         const data = languageData[languageCode];
         if (data) {
-
-
             for (let key in data) {
                 // Get the corresponding DOM element by ID
                 let element = document.getElementById(key);
@@ -48,8 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
                     element.textContent = data[key];
                 }
             }
-
-
         }
       }
 
@@ -64,11 +62,9 @@ document.addEventListener('DOMContentLoaded', function () {
       });
 
 
-      function setLanguagePreference(languageCode) {
-        localStorage.setItem('language', languageCode);
-      }
 
 
 
-    
+
+
 });
