@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/hog_favicon.png">
     <!-- <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" /> -->
     <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+    <script src="../js/loadLanguage.js"></script>
+
 </head>
 <body>
     
@@ -16,25 +18,25 @@
         <a href="../index.html">
             <img src="../assets/icons/back_brown.png" alt="">
         </a>
-        <span>EMERGENCY</span>
+        <span id="main-title">EMERGENCY</span>
     </div>
 
-    <span class="navigationSubTitle">Emergency numbers & information</span>
+    <span class="navigationSubTitle" id="main-subtitle">Emergency numbers & information</span>
 
     <img src="../assets/img/emergency.jpg" alt="" class="middleInfoImage">
 
 
-    <span class="mainMessage">In case of emergency, please reach out to local authorities for assistance. Your safety is our top priority.</span>
+    <span class="mainMessage" id="main-message">In case of emergency, please reach out to local authorities for assistance. Your safety is our top priority.</span>
 
 
     <a href="tel:911" class="emergencyItemWrap">
         <div class="emergencyItem">
             <img src="../assets/icons/hospital.png" alt="" class="emergencyIcon">
             <div class="emergencyInfoWrap">
-                <span class="emergencyTitle">HOSPITAL</span>
+                <span class="emergencyTitle" id="title-hospital">HOSPITAL</span>
                 <div class="emergencyNumberWrap">
                     <img src="../assets/icons/phone-call.png" alt="" class="emergencyPhoneIcon">
-                    <span class="emergencyNumberText">911</span>
+                    <span class="emergencyNumberText" id="hospital-number">911</span>
                 </div>
             </div>
         </div>
@@ -44,10 +46,10 @@
         <div class="emergencyItem">
             <img src="../assets/icons/police.png" alt="" class="emergencyIcon">
             <div class="emergencyInfoWrap">
-                <span class="emergencyTitle">POLICE</span>
+                <span class="emergencyTitle" id="title-police">POLICE</span>
                 <div class="emergencyNumberWrap">
                     <img src="../assets/icons/phone-call.png" alt="" class="emergencyPhoneIcon">
-                    <span class="emergencyNumberText">911</span>
+                    <span class="emergencyNumberText" id="police-number">911</span>
                 </div>
             </div>
         </div>
@@ -57,10 +59,10 @@
         <div class="emergencyItem">
             <img src="../assets/icons/firefighter.png" alt="" class="emergencyIcon">
             <div class="emergencyInfoWrap">
-                <span class="emergencyTitle">FIRE FIGHTER</span>
+                <span class="emergencyTitle" id="title-fire">FIRE FIGHTER</span>
                 <div class="emergencyNumberWrap">
                     <img src="../assets/icons/phone-call.png" alt="" class="emergencyPhoneIcon">
-                    <span class="emergencyNumberText">911</span>
+                    <span class="emergencyNumberText" id="fire-number">911</span>
                 </div>
             </div>
         </div>

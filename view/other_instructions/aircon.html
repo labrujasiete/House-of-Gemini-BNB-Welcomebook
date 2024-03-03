@@ -9,6 +9,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/hog_favicon.png">
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="../../js/loadLanguage.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+        
+            const storedLanguage = localStorage.getItem('language') || 'en';
+
+            if(storedLanguage == 'en'){
+                document.getElementById('video-source').src = "../../assets/video/house-of-gemini-AC_EN.mp4";
+            }else if(storedLanguage == 'es'){
+                document.getElementById('video-source').src = "../../assets/video/house-of-gemini-AC_ES.mp4";
+            }
+
+        });
+
+    </script>
 </head>
 <body>
     
@@ -16,10 +32,10 @@
         <a href="../../index.html">
             <img src="../../assets/icons/back_brown.png" alt="">
         </a>
-        <span>AIRCON</span>
+        <span id="mainTitle">AIRCON</span>
     </div>
 
-    <span class="navigationSubTitle">Air conditioner instructions & maintenance</span>
+    <span class="navigationSubTitle" id="mainSubtitle">Air conditioner instructions & maintenance</span>
 
     <div class="spacer"></div>
     
@@ -31,7 +47,7 @@
             preload="auto"
             data-setup="{}"
             >
-            <source src="../../assets/video/house-of-gemini-AC_EN.mp4" type="video/mp4" />
+            <source id="video-source" src="../../assets/video/house-of-gemini-AC_EN.mp4" type="video/mp4" />
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a
                 web browser that
@@ -46,19 +62,20 @@
     
     <div class="spacer"></div>
     
-    <div class="bulletTitle">Instructions</div>    
+    <div class="bulletTitle" id="bulletTitle">Instructions</div>    
 
     <ul>
-        <li>Locate the wall-mounted controller in your room.</li>
-        <li>Press the power button to turn on the unit.</li>
-        <li>Use the mode button to choose "Cool" for cooling.</li>
-        <li>Use the temperature buttons to set your desired temperature.</li>
-        <li>Adjust fan speed using the fan speed button if needed.</li>
-        <li>Use timer and swing functions if available.</li>
-        <li>Check the display for your settings.</li>
-        <li>Turn off the unit when not needed to save energy.</li>
-        <li>If needed, consult the host or user manual for further assistance.</li>
+        <li id="step1">Locate the wall-mounted controller in your room.</li>
+        <li id="step2">Press the power button to turn on the unit.</li>
+        <li id="step3">Use the mode button to choose "Cool" for cooling.</li>
+        <li id="step4">Use the temperature buttons to set your desired temperature.</li>
+        <li id="step5">Adjust fan speed using the fan speed button if needed.</li>
+        <li id="step6">Use timer and swing functions if available.</li>
+        <li id="step7">Check the display for your settings.</li>
+        <li id="step8">Turn off the unit when not needed to save energy.</li>
+        <li id="step9">If needed, consult the host or user manual for further assistance.</li>
     </ul>
+    
 
 
 

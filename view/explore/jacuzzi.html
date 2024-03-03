@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/hog_favicon.png">
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="../../js/loadLanguage.js"></script>
 </head>
 <body>
     
@@ -16,10 +17,10 @@
         <a href="../../index.html">
             <img src="../../assets/icons/back_brown.png" alt="">
         </a>
-        <span>JACUZZI</span>
+        <span id="mainTitle">JACUZZI</span>
     </div>
 
-    <span class="navigationSubTitle">Jacuzzi instructions & maintenance</span>
+    <span class="navigationSubTitle" id="mainSubTitle">Jacuzzi instructions & maintenance</span>
 
     <div class="spacer"></div>
     
@@ -27,7 +28,7 @@
     
     <div class="spacer"></div>
     
-    <span class="mainMessage">Enjoy responsibly and follow safety guidelines. Keep the area clean, avoid bringing glassware, and limit late-night use. Cover after use and report any issues promptly. Thanks for ensuring a relaxing experience for all.</span>
+    <span class="mainMessage" id="mainMessage">Enjoy responsibly and follow safety guidelines. Keep the area clean, avoid bringing glassware, and limit late-night use. Cover after use and report any issues promptly. Thanks for ensuring a relaxing experience for all.</span>
     
     <div class="spacer"></div>
     
@@ -52,23 +53,24 @@
     
     <div class="spacer"></div>
 
-    <div class="bulletTitle">To Turn On</div>    
+    <div class="bulletTitle" id="bulletTitle01">To Turn On</div>    
 
     <ol>
-        <li>Locate the control panel near the jacuzzi.</li>
-        <li>Press the power button to activate the jacuzzi.</li>
-        <li>Adjust temperature and settings as desired using the control panel.</li>
-        <li>Wait for the water to reach the desired temperature before entering.</li>
+        <li id="step1">Locate the control panel near the jacuzzi.</li>
+        <li id="step2">Press the power button to activate the jacuzzi.</li>
+        <li id="step3">Adjust temperature and settings as desired using the control panel.</li>
+        <li id="step4">Wait for the water to reach the desired temperature before entering.</li>
     </ol>
-
-    <div class="bulletTitle">To Turn Off</div>    
-
+    
+    <div class="bulletTitle" id="bulletTitle02">To Turn Off</div>    
+    
     <ol>
-        <li>Press the power button again to deactivate the jacuzzi.</li>
-        <li>Ensure all jets are turned off.</li>
-        <li>Replace the jacuzzi cover to conserve energy and maintain cleanliness.</li>
-        <li>If unsure, refer to the instruction manual or contact the host for assistance.</li>
+        <li id="step5">Press the power button again to deactivate the jacuzzi.</li>
+        <li id="step6">Ensure all jets are turned off.</li>
+        <li id="step7">Replace the jacuzzi cover to conserve energy and maintain cleanliness.</li>
+        <li id="step8">If unsure, refer to the instruction manual or contact the host for assistance.</li>
     </ol>
+    
 
 
 

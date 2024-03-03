@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/hog_favicon.png">
     <!-- <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" /> -->
     <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+    <script src="../js/loadLanguage.js"></script>
 </head>
 <body>
     
@@ -16,31 +17,31 @@
         <a href="../index.html">
             <img src="../assets/icons/back_brown.png" alt="">
         </a>
-        <span>TRANSPORT</span>
+        <span id="main-title">TRANSPORT</span>
     </div>
 
-    <span class="navigationSubTitle">Transportation Information</span>
+    <span class="navigationSubTitle" id="main-subtitle">Transportation Information</span>
 
     <img src="../assets/img/transportation.jpg" alt="" class="middleInfoImage">
 
 
 
 
-    <span class="mainMessage">We've got easy directions. Explore the city with public transport, rideshares, bikes, or on foot. Need help? Just ask. Enjoy your stay and happy travels!</span>
+    <span class="mainMessage" id="main-message">We've got easy directions. Explore the city with public transport, rideshares, bikes, or on foot. Need help? Just ask. Enjoy your stay and happy travels!</span>
 
     <div class="transportItemsWrap">
 
         <div class="transportItem">
-            <span class="transportLabel">CAR RENTAL</span>
+            <span class="transportLabel" id="label-rental">CAR RENTAL</span>
             <img src="../assets/icons/car-rent.png" alt="">
-            <span class="transportText">If you prefer the freedom to explore at your own pace, renting a car is a great option. Several reputable car rental companies operate in the area</span>
+            <span class="transportText" id="text-rental">If you prefer the freedom to explore at your own pace, renting a car is a great option. Several reputable car rental companies operate in the area</span>
             <a href="https://maps.app.goo.gl/yNgZTuy2wbo5NUKQA" target="_blank" class="transportLink">Google Maps</a>
         </div>
         
         <div class="transportItem">
-            <span class="transportLabel">CAR</span>
+            <span class="transportLabel" id="label-car">CAR</span>
             <img src="../assets/icons/steering-wheel.png" alt="">
-            <span class="transportText">With your car parked just steps away from your accommodation, you can easily embark on your adventures whenever you're ready.</span>
+            <span class="transportText" id="text-car">With your car parked just steps away from your accommodation, you can easily embark on your adventures whenever you're ready.</span>
         </div>
         
     </div>
@@ -48,21 +49,22 @@
     <div class="transportItemsWrap">
         
         <div class="transportItem">
-            <span class="transportLabel">BUS</span>
+            <span class="transportLabel" id="label-bus">BUS</span>
             <img src="../assets/icons/bus-stop.png" alt="">
-            <span class="transportText">If you prefer the freedom to explore at your own pace, renting a car is a great option. Several reputable car rental companies operate in the area</span>
+            <span class="transportText" id="text-bus">Discover the ease and eco-friendliness of public transportation. Embrace the journey and join the movement towards a greener future!</span>
             <a href="https://maps.app.goo.gl/zGeEh85vAeKcgQCx8" target="_blank" class="transportLink">Google Maps</a>
         </div>
         
         <div class="transportItem">
-            <span class="transportLabel">TAXY</span>
+            <span class="transportLabel" id="label-taxy">TAXY</span>
             <img src="../assets/icons/taxi.png" alt="">
-            <span class="transportText">MARCO PADILLA<br>your go-to for safe, efficient transportation. With local expertise, professionalism, and round-the-clock availability</span>
-            <a href="tel:+5216461271194" class="transportLink">&#128222; 646-127-1194</a>
+            <span class="transportText" id="text-taxy">MARCO PADILLA<br>your go-to for safe, efficient transportation. With local expertise, professionalism, and round-the-clock availability</span>
+            <a href="tel:+5216461271194" class="transportLink" id="taxy-number">&#128222; 646-127-1194</a>
         </div>
 
     </div>
 
+    <div class="footer"></div>
     <div class="footer"></div>
 
 

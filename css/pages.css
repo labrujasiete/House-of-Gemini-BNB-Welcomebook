@@ -90,11 +90,18 @@ body{
 .titleNavigation span{
     /* background-color: chartreuse; */
     text-align: center;
-    /* width: 80%; */
+    width: 60%;
     /* flex: 1; */
     color: var(--primary-color);
     font-family: var(--Cormorant);
     font-size: var(--font-size-xxxl);
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 
 .navigationSubTitle{
@@ -105,6 +112,7 @@ body{
     color: var(--black-text);
     margin-bottom: 5vh;
     margin-top: 1vh;
+    
     
 }
 
@@ -297,8 +305,8 @@ body{
 }
 
 .placeGmapsIcon{
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     margin-right: 7px;
 }
 
@@ -314,6 +322,13 @@ body{
     font-size: var(--font-size-md);
     font-weight: 350;
     color: rgba(0, 0, 0, 0.85);
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 
 }
 

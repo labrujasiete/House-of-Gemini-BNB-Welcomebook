@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/hog_favicon.png">
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="../../js/loadLanguage.js"></script>
 </head>
 <body>
     
@@ -16,10 +17,10 @@
         <a href="../../index.html">
             <img src="../../assets/icons/back_brown.png" alt="">
         </a>
-        <span>BOILER</span>
+        <span id="boilerTitle">BOILER</span>
     </div>
 
-    <span class="navigationSubTitle">Boiler instructions & maintenance</span>
+    <span id="boilerInstructions" class="navigationSubTitle">Boiler instructions & maintenance</span>
 
     <div class="spacer"></div>
     
@@ -44,16 +45,16 @@
     
     <div class="spacer"></div>
     
-    <div class="bulletTitle">Instructions</div>    
+    <div id="boilerBulletTitle" class="bulletTitle">Instructions</div>
 
     <ol>
-        <li>Find the boiler's controls, usually near the unit.</li>
-        <li>Flip the ON/OFF switch or turn the knob to activate the boiler.</li>
-        <li>Ensure the thermostat is set to your desired temperature.</li>
-        <li>Watch for the boiler's burner igniting to heat water.</li>
-        <li>Use the temperature control to adjust hot water temperature if needed.</li>
-        <li>When finished, switch off the boiler.</li>
-        <li>Be aware of safety features and procedures, including gas leak detection.</li>
+        <li id="boilerStep1">Find the boiler's controls, usually near the unit.</li>
+        <li id="boilerStep2">Flip the ON/OFF switch or turn the knob to activate the boiler.</li>
+        <li id="boilerStep3">Ensure the thermostat is set to your desired temperature.</li>
+        <li id="boilerStep4">Watch for the boiler's burner igniting to heat water.</li>
+        <li id="boilerStep5">Use the temperature control to adjust hot water temperature if needed.</li>
+        <li id="boilerStep6">When finished, switch off the boiler.</li>
+        <li id="boilerStep7">Be aware of safety features and procedures, including gas leak detection.</li>
     </ol>
 
     <div class="spacer"></div>

@@ -93,7 +93,7 @@ body{
 .titleNavigation span{
     /* background-color: chartreuse; */
     text-align: center;
-    /* width: 80%; */
+    width: 65%;
     /* flex: 1; */
     color: var(--primary-color);
     font-family: var(--Cormorant);
@@ -108,7 +108,7 @@ body{
     color: var(--black-text);
     margin-bottom: 1vh;
     margin-top: 1vh;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --main-title: clamp(1rem, 6.5vw + 1rem, 4rem);
@@ -483,14 +484,12 @@ body{
   }
 
   .langSwitchWrap span{
-    font-family: 'Rubik';
+    font-family: 'Exo 2';
     color: var(--primary-color);
     padding-bottom: 9px;
     opacity: .75;
     font-size: var(--font-size-md);
   }
-
-
 
 
 

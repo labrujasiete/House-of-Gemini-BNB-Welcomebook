@@ -47,10 +47,10 @@
             "top-link-checkin": "ENTRAR / SALIR",
             "top-link-wifi": "Wi-Fi",
             "top-link-transport": "TRANSPORTE",
-            "top-link-places": "DESTINO",
+            "top-link-places": "DESTINOS",
             "top-link-emerg": "EMERGENCIA",
             "top-link-amenities": "AMENIDADES",
-            "welcome-msg-text": "¡Bienvenidos al Valle de\u000A Guadalupe! Estamos emocionados de tenerte en nuestra Casa de Géminis en esta impresionante región vinícola. Nuestro acogedor refugio lo espera, lleno de encanto y comodidad locales.",
+            "welcome-msg-text": "¡Bienvenido al Valle de\u000A Guadalupe! Estamos emocionados de tenerte en nuestra Casa de Géminis en esta impresionante región vinícola. Nuestro acogedor refugio lo espera, lleno de encanto y comodidad locales.",
             "sub-welcome-msg-text": "¡Bienvenido a su hogar lejos de casa!",
             "keys-msg": "Se entregan 2 llaves y 1 control remoto a su llegada.",
             "title-explore": "EXPLORA LA CASA",
@@ -89,6 +89,7 @@
     },
 
     "checkinout": {
+
         "en": {
             "mainTitle": "CHECK IN/OUT",
             "mainSubTitle": "Arrival Information",
@@ -102,6 +103,7 @@
             "highlight-title": "CÓDIGO DADO POR ANFITRIÓN",
             "mainMessage": "Para una experiencia de check-in y check-out perfecta, siga estas instrucciones. A su llegada, ubique la caja segura provista del código proporcionado. En el interior encontrará las llaves de acceso a la propiedad. Asegúrese de cerrar la caja con llave de forma segura después de recuperar las llaves. Del mismo modo, al salir, devuelva las llaves a la caja segura y ciérrela con el mismo código proporcionado. Esto garantiza la seguridad de las llaves para futuros huéspedes. ¡Gracias por su cooperación y disfrute de su estancia!"
         }
+        
     },
 
     "wifi": {
@@ -124,15 +126,163 @@
             "main-message": "No dudes en conectarte y disfrutar de Internet de alta velocidad durante tu estancia. Si tiene alguna pregunta o necesita ayuda, no dude en comunicarse con nosotros. Estamos aquí para hacer que su experiencia sea lo más cómoda posible."
         }
 
+    },
+
+    "transport": {
+        
+        "en": {
+            "main-title": "TRANSPORT",
+            "main-subtitle": "Transportation Information",
+            "main-message": "We've got easy directions. Explore the city with public transport, rideshares, bikes, or on foot. Need help? Just ask. Enjoy your stay and happy travels!",
+            "label-rental": "CAR RENTAL",
+            "text-rental": "If you prefer the freedom to explore at your own pace, renting a car is a great option. Several reputable car rental companies operate in the area",
+            "label-car": "CAR",
+            "text-car": "With your car parked just steps away from your accommodation, you can easily embark on your adventures whenever you're ready.",
+            "label-bus": "BUS",
+            "text-bus": "Discover the ease and eco-friendliness of public transportation. Embrace the journey and join the movement towards a greener future!",
+            "label-taxy": "TAXY",
+            "text-taxy": "MARCO PADILLA\u000Ayour go-to for safe, efficient transportation. With local expertise, professionalism, and round-the-clock availability<",
+            "taxy-number": "\uD83D\uDCDE Call"
+        },
+        
+        "es": {
+            "main-title": "TRANSPORTE",
+            "main-subtitle": "Información de transporte",
+            "main-message": "Tenemos direcciones fáciles. Explore la ciudad en transporte público, viajes compartidos, bicicletas o a pie. ¿Necesitas ayuda? Solo pregunta. ¡Disfruta de tu estancia y feliz viaje!",
+            "label-rental": "ALQUILER",
+            "text-rental": "Si prefiere la libertad de explorar a su propio ritmo, alquilar un coche es una excelente opción. Varias empresas de alquiler de coches de renombre operan en la zona.",
+            "label-car": "CARRO",
+            "text-car": "Con su automóvil estacionado a solo unos pasos de su alojamiento, podrá embarcarse fácilmente en sus aventuras cuando esté listo.",
+            "label-bus": "CAMION",
+            "text-bus": "Descubra la facilidad y el respeto al medio ambiente del transporte público. ¡Acepta el viaje y únete al movimiento hacia un futuro más verde!",
+            "label-taxy": "TAXY",
+            "text-taxy": "MARCO PADILLA\u000Asu opción para un transporte seguro y eficiente. Con experiencia local, profesionalismo y disponibilidad las 24 horas.<",
+            "taxy-number": "\uD83D\uDCDE Llamar"
+        }
 
 
     },
 
+    "placestosee": {
+        
+        "en": {
+            "main-title": "PLACES TO SEE",
+            "main-subtitle": "Places of Interest around the area",
+            "main-message": "For your convenience, we've listed nearby restaurants and bars below. Simply click on them to open Google Maps and get directions. Enjoy exploring the local dining scene!",
+            "title-01": "RESTAURANTS",
+            "title-02": "BARS & WINERIES"
+        },
+        
+        "es": {
+            "main-title": "DESTINOS DE INTERES",
+            "main-subtitle": "Lugares de Interés alrededor de la zona",
+            "main-message": "Para su comodidad, a continuación enumeramos restaurantes y bares cercanos. Simplemente haga clic en ellos para abrir Google Maps y obtener direcciones. ¡Disfruta explorando la escena gastronómica local!",
+            "title-01": "RESTAURANTES",
+            "title-02": "BARES Y BODEGAS"
+        }
 
+    },
 
+    "emergency": {
 
+        "en": {
+            "main-title": "EMERGENCY",
+            "main-subtitle": "Emergency numbers & information",
+            "main-message": "In case of emergency, please reach out to local authorities for assistance. Your safety is our top priority.",
+            "title-hospital": "HOSPITAL",
+            "hospital-number": "911",
+            "title-police": "POLICE",
+            "police-number": "911",
+            "title-fire": "FIRE FIGHTER",
+            "fire-number": "911"
+        },
 
+        
+        "es": {
+            "main-title": "EMERGENCIA",
+            "main-subtitle": "Números de emergencia e información",
+            "main-message": "En caso de emergencia, por favor comuníquese con las autoridades locales para obtener ayuda. Su seguridad es nuestra principal prioridad.",
+            "title-hospital": "HOSPITAL",
+            "hospital-number": "911",
+            "title-police": "POLICÍA",
+            "police-number": "911",
+            "title-fire": "BOMBEROS",
+            "fire-number": "911"
+        }
+            
 
+    },
+
+    "amenities": {
+        
+            "en": {
+                "amenities": "AMENITIES",
+                "amenities_info": "Amenities list & information",
+                "topMessage": "Indulge in comfort and convenience with our array of amenities tailored to enhance your stay. Relax by the pool, or unwind in our cozy lounge area. Whatever you need, we're here to make your experience unforgettable.",
+                "bedroom": "BEDROOM",
+                "bed": "Bed",
+                "pillows": "Pillows",
+                "blankets": "Blankets",
+                "alarm_clock": "Alarm Clock",
+                "mirror": "Mirror",
+                "curtains": "Curtains",
+                "aircon": "Aircon",
+                "common_area": "COMMON AREA",
+                "living_room": "Living room",
+                "tv": "TV",
+                "board_games": "Board Games",
+                "bathroom": "BATHROOM",
+                "toilet": "Toilet",
+                "shower": "Shower",
+                "toilet_paper": "Toilet paper",
+                "hand_soap": "Hand soap",
+                "shampoo": "Shampoo",
+                "conditioner": "Conditioner",
+                "body_wash": "Body wash",
+                "towels": "Towels",
+                "outdoor": "OUTDOOR",
+                "garage": "Garage",
+                "eating_area": "Eating area",
+                "fire_pit": "Fire pit",
+                "hot_tub": "Hot tub"
+            },
+
+            "es": {
+                "amenities": "AMENIDADES",
+                "amenities_info": "Lista e información de comodidades",
+                "topMessage": "Disfruta de comodidad y conveniencia con nuestra variedad de comodidades diseñadas para mejorar tu estadía. Relájate en la piscina o descansa en nuestra acogedora área de descanso. Sea lo que sea que necesites, estamos aquí para hacer tu experiencia inolvidable.",
+                "bedroom": "HABITACIÓN",
+                "bed": "Cama",
+                "pillows": "Almohadas",
+                "blankets": "Cobijas",
+                "alarm_clock": "Alarma",
+                "mirror": "Espejo",
+                "curtains": "Cortinas",
+                "aircon": "AC",
+                "common_area": "ÁREA COMÚN",
+                "living_room": "Sala",
+                "tv": "Televisión",
+                "board_games": "Juegos",
+                "bathroom": "BAÑO",
+                "toilet": "Inodoro",
+                "shower": "Ducha",
+                "toilet_paper": "Papel higiénico",
+                "hand_soap": "Jabón",
+                "shampoo": "Champú",
+                "conditioner": "Acondic.",
+                "body_wash": "Body wash",
+                "towels": "Toallas",
+                "outdoor": "EXTERIOR",
+                "garage": "Garaje",
+                "eating_area": "Patio",
+                "fire_pit": "Fogata",
+                "hot_tub": "Jacuzzi"
+            }
+            
+
+            
+
+    },
 
     "kitchen": {
         
@@ -148,8 +298,267 @@
             "mainMessage": "Mantenga la limpieza lavando los platos y limpiando las superficies rápidamente. Respete a los demás coordinando el uso de los electrodomésticos y manteniendo bajos los niveles de ruido. Etiquete y almacene los alimentos adecuadamente, desechando los perecederos con prontitud. Opere los electrodomésticos de forma segura y manipule las superficies calientes con cuidado. Separe los residuos para reciclarlos e informe cualquier problema al anfitrión. Antes de realizar el pago, asegúrese de la limpieza y devuelva los artículos a su lugar. Gracias por ayudar a crear una agradable experiencia de cocina compartida."
         }
 
-    }
+    },
 
+    "living_room": {
+
+        "en": {
+            "main-title": "LIVING ROOM",
+            "main-subtitle": "Living room instructions & maintenance",
+            "main-message": "Please keep the living room tidy and organized during your stay. Respect other guests' comfort by keeping noise levels low, especially during late hours. Use coasters for drinks to prevent damage to furniture. Refrain from rearranging furniture without permission. Enjoy the shared space responsibly and report any damages or concerns to the host promptly. Thank you for maintaining a welcoming environment for all guests."
+        },
+
+        "es": {
+            "main-title": "SALA",
+            "main-subtitle": "Instrucciones y mantenimiento de la sala",
+            "main-message": "Mantenga la sala de estar ordenada y organizada durante su estadía. Respete la comodidad de los demás huéspedes manteniendo bajos los niveles de ruido, especialmente durante las últimas horas. Utilice posavasos para bebidas para evitar daños a los muebles. Abstenerse de reorganizar los muebles sin permiso. Disfrute del espacio compartido de manera responsable e informe cualquier daño o inquietud al anfitrión de inmediato. Gracias por mantener un ambiente acogedor para todos los huéspedes."
+        }
+
+    },
+
+    "bedroom": {
+
+        "en": {
+            "main-title": "BEDROOM",
+            "main-subtitle": "Bedroom instructions & maintenance",
+            "main-message": "Maintain cleanliness by making your bed and keeping personal belongings organized. Respect other guests' privacy and quiet hours by minimizing noise and disturbances. Use coasters or trays for drinks to prevent spills and damage to furniture. Keep the bedroom door closed when not in use. Report any issues or concerns to the host promptly. Thank you for ensuring a comfortable stay for yourself and fellow guests."
+        },
+
+        "es": {
+            "main-title": "DORMITORIO",
+            "main-subtitle": "Instrucciones y mantenimiento del dormitorio.",
+            "main-message": "Mantenga la limpieza haciendo su cama y manteniendo organizadas sus pertenencias personales. Respete la privacidad y las horas de tranquilidad de los demás huéspedes minimizando el ruido y las molestias. Utilice posavasos o bandejas para bebidas para evitar derrames y daños a los muebles. Mantenga la puerta del dormitorio cerrada cuando no esté en uso. Informe cualquier problema o inquietud al anfitrión de inmediato. Gracias por garantizar una estancia cómoda para usted y sus demás huéspedes."
+        }
+
+    },
+
+    "bathroom": {
+
+        "en": {
+            "main-title": "BATHROOM",
+            "main-subtitle": "Bathroom instructions & maintenance",
+            "main-message": "Please maintain cleanliness by wiping down surfaces after use and promptly disposing of any waste in the provided bins. Respect other guests' privacy and time by keeping showers and bathroom usage efficient. Use the provided towels and toiletries responsibly and refrain from removing them from the premises. Report any maintenance issues or concerns to the host promptly. Thank you for helping to keep the bathroom a pleasant and functional space for all guests."
+        },
+
+        "es": {
+            "main-title": "BAÑO",
+            "main-subtitle": "Instrucciones y mantenimiento del baño.",
+            "main-message": "Mantenga la limpieza limpiando las superficies después de su uso y desechando rápidamente cualquier desperdicio en los contenedores provistos. Respete la privacidad y el tiempo de los demás huéspedes manteniendo el uso eficiente de las duchas y los baños. Utilice responsablemente las toallas y artículos de tocador proporcionados y absténgase de sacarlos del recinto. Informe cualquier problema o inquietud de mantenimiento al anfitrión de inmediato. Gracias por ayudar a mantener el baño como un espacio agradable y funcional para todos los huéspedes."
+        }
+
+    },
+
+    "jacuzzi": {
+
+        "en": {
+            "mainTitle": "JACUZZI",
+            "mainSubTitle": "Jacuzzi instructions & maintenance",
+            "mainMessage": "Enjoy responsibly and follow safety guidelines. Keep the area clean, avoid bringing glassware, and limit late-night use. Cover after use and report any issues promptly. Thanks for ensuring a relaxing experience for all.",
+            "bulletTitle01": "To Turn On",
+            "step1": "Locate the control panel near the jacuzzi.",
+            "step2": "Press the power button to activate the jacuzzi.",
+            "step3": "Adjust temperature and settings as desired using the control panel.",
+            "step4": "Wait for the water to reach the desired temperature before entering.",
+            "bulletTitle02": "To Turn Off",
+            "step5": "Press the power button again to deactivate the jacuzzi.",
+            "step6": "Ensure all jets are turned off.",
+            "step7": "Replace the jacuzzi cover to conserve energy and maintain cleanliness.",
+            "step8": "If unsure, refer to the instruction manual or contact the host for assistance."
+        },
+
+        "es": {
+            "mainTitle": "JACUZZI",
+            "mainSubTitle": "Instrucciones y mantenimiento del jacuzzi",
+            "mainMessage": "Disfrute de manera responsable y siga las pautas de seguridad. Mantenga el área limpia, evite traer cristalería y limite el uso nocturno. Cubra después de usar y reporte cualquier problema de inmediato. Gracias por asegurar una experiencia relajante para todos.",
+            "bulletTitle01": "Para encender",
+            "step1": "Localice el panel de control cerca del jacuzzi.",
+            "step2": "Presione el botón de encendido para activar el jacuzzi.",
+            "step3": "Ajuste la temperatura y los ajustes según lo deseado usando el panel de control.",
+            "bulletTitle02": "Para apagar",    
+            "step4": "Espere a que el agua alcance la temperatura deseada antes de entrar.",
+            "step5": "Presione nuevamente el botón de encendido para desactivar el jacuzzi.",
+            "step6": "Asegúrese de que todos los chorros estén apagados.",
+            "step7": "Vuelva a colocar la cubierta del jacuzzi para conservar energía y mantener la limpieza.",
+            "step8": "Si no está seguro, consulte el manual de instrucciones o contacte al anfitrión para obtener ayuda."
+        }
+
+          
+          
+
+    },
+
+    "fire_pit": {
+        
+        "en": {
+            "mainTitle": "FIRE PIT",
+            "mainSubtitle": "Fire pit instructions & maintenance",
+            "mainMessage": "Welcome to our cozy outdoor space featuring a gas fire pit! Please enjoy the warmth and ambiance responsibly. Follow the provided instructions to safely operate the fire pit, ensuring a delightful experience for all. If you have any questions or concerns, feel free to reach out to us. Thank you for being our guest and enjoy your time by the fire!",
+            "bulletTitle01": "To Turn On",
+            "bulletTitle02": "To Turn Off",    
+            "step1": "Plug the Gas Tank",
+            "step2": "Ensure the gas tank is securely connected to the fire pit.",
+            "step3": "Turn the valve on the gas tank counterclockwise to open it fully.",
+            "step4": "Locate the gas valve on the fire pit and push it to allow gas flow.",
+            "step5": "Hold a lighter near the gas exit point on the fire pit",
+            "step6": "Turn the gas wheel on the fire pit to open the valve slightly",
+            "step7": "Once lit, adjust the flame intensity using the gas valve on the fire pit.",
+            "step8": "Exercise caution and avoid overextending the flame.",
+            "step9": "To turn off the fire pit, close the gas valve on both the fire pit and the gas tank.",
+            "step10": "Allow the fire pit to cool down completely before covering or moving it.",
+            "step11": "Always keep flammable materials away from the fire pit.",
+            "step12": "Never leave the fire pit unattended while in use.",
+            "step13": "If you smell gas or suspect a leak, turn off the gas immediately and contact the host for assistance.",
+            "step14": "By following these steps, you can safely enjoy the ambiance and warmth of the gas fire pit."
+        },
+
+        "es": {
+            "mainTitle": "FOGATA DE GAS",
+            "mainSubtitle": "Instrucciones y mantenimiento del fuego de campamento",
+            "mainMessage": "¡Bienvenido a nuestro acogedor espacio al aire libre con una hoguera de gas! Por favor, disfrute del calor y el ambiente de manera responsable. Siga las instrucciones proporcionadas para operar la hoguera de manera segura, asegurando una experiencia encantadora para todos. Si tiene alguna pregunta o inquietud, no dude en comunicarse con nosotros. ¡Gracias por ser nuestro invitado y disfrute su tiempo junto al fuego!",
+            "bulletTitle01": "Para Encender",
+            "bulletTitle02": "Para Apagar",
+            "step1": "Conectar el tanque de gas",
+            "step2": "Asegúrese de que el tanque de gas esté conectado de forma segura a la hoguera.",
+            "step3": "Gire la válvula del tanque de gas en sentido antihorario para abrir completamente.",
+            "step4": "Localice la válvula de gas en la hoguera y presiónela para permitir el flujo de gas.",
+            "step5": "Mantenga un encendedor cerca del punto de salida de gas en la hoguera",
+            "step6": "Gire la rueda de gas en la hoguera para abrir la válvula ligeramente",
+            "step7": "Una vez encendida, ajuste la intensidad de la llama usando la válvula de gas en la hoguera.",
+            "step8": "Tenga cuidado y evite extender demasiado la llama.",
+            "step9": "Para apagar la hoguera, cierre la válvula de gas tanto en la hoguera como en el tanque de gas.",
+            "step10": "Permita que la hoguera se enfríe completamente antes de cubrirla o moverla.",
+            "step11": "Mantenga siempre materiales inflamables alejados de la hoguera.",
+            "step12": "Nunca deje la hoguera desatendida mientras esté en uso.",
+            "step13": "Si huele gas o sospecha una fuga, cierre el gas inmediatamente y contacte al anfitrión para obtener ayuda.",
+            "step14": "Siguiendo estos pasos, puede disfrutar de manera segura del ambiente y el calor de la hoguera de gas."
+        }
+        
+
+
+
+    },
+
+    "garage": {
+
+        "en": {
+            "main-title": "GARAGE",
+            "main-subtitle": "Garage instructions & maintenance",
+            "main-message": "Park your vehicle in the designated spot and ensure it doesn't obstruct any pathways or other vehicles. Refrain from storing personal items or additional vehicles without prior approval from the host. Report any maintenance issues or concerns promptly. Thank you for helping us maintain a functional and safe garage space for everyone to use."
+        },
+
+        "es": {
+            "main-title": "COCHERA",
+            "main-subtitle": "Instrucciones y mantenimiento del garaje.",
+            "main-message": "Estacione su vehículo en el lugar designado y asegúrese de que no obstruya ningún camino u otros vehículos. Abstenerse de almacenar artículos personales o vehículos adicionales sin la aprobación previa del anfitrión. Informe cualquier problema o inquietud de mantenimiento con prontitud. Gracias por ayudarnos a mantener un espacio de garaje funcional y seguro para que todos lo usen."
+        }
+
+    },
+
+    "lunch_area": {
+
+        "en": {
+            "main-title": "LUNCH AREA",
+            "main-subtitle": "Exterior lunch area instructions & maintenance",
+            "main-message": "Welcome to our charming exterior lunch area! Please utilize the food preparation table and dining table for your meals. Keep the area clean and tidy after use, disposing of any waste in the designated bins. Enjoy the beautiful light decorations while respecting the peaceful atmosphere for all guests. If you have any questions or need assistance, don't hesitate to ask. Thank you for helping us maintain this inviting space for everyone to enjoy."
+        },
+
+        "es": {
+            "main-title": "COMEDOR",
+            "main-subtitle": "Instrucciones y mantenimiento del área de almuerzo exterior.",
+            "main-message": "¡Bienvenido a nuestra encantadora área de almuerzo exterior! Utilice la mesa de preparación de alimentos y la mesa del comedor para sus comidas. Mantener el área limpia y ordenada después de su uso, depositando los posibles residuos en los contenedores designados. Disfrute de las hermosas decoraciones luminosas respetando el ambiente tranquilo para todos los invitados. Si tienes alguna pregunta o necesitas ayuda, no dudes en preguntar. Gracias por ayudarnos a mantener este espacio acogedor para que todos lo disfruten."
+        }
+
+    },
+
+    "aircon": {
+
+        "en": {
+            "mainTitle": "AIRCON",
+            "mainSubtitle": "Air conditioner instructions & maintenance",
+            "bulletTitle" : "Instructions",
+            "step1": "Locate the wall-mounted controller in your room.",
+            "step2": "Press the power button to turn on the unit.",
+            "step3": "Use the mode button to choose \"Cool\" for cooling.",
+            "step4": "Use the temperature buttons to set your desired temperature.",
+            "step5": "Adjust fan speed using the fan speed button if needed.",
+            "step6": "Use timer and swing functions if available.",
+            "step7": "Check the display for your settings.",
+            "step8": "Turn off the unit when not needed to save energy.",
+            "step9": "If needed, consult the host or user manual for further assistance."
+        },
+
+        "es": {
+            "mainTitle": "AIRE ACONDICIONADO",
+            "mainSubtitle": "Instrucciones y mantenimiento del aire acondicionado.",
+            "bulletTitle" : "Instrucciones",
+            "step1": "Ubica el controlador montado en la pared en tu habitación.",
+            "step2": "Presiona el botón de encendido para encender la unidad.",
+            "step3": "Utiliza el botón de modo para seleccionar \"Cool\" para refrigeración.",
+            "step4": "Utiliza los botones de temperatura para configurar la temperatura deseada.",
+            "step5": "Ajusta la velocidad del ventilador usando el botón de velocidad del ventilador si es necesario.",
+            "step6": "Utiliza las funciones de temporizador y oscilación si están disponibles.",
+            "step7": "Verifica la pantalla para tus ajustes.",
+            "step8": "Apaga la unidad cuando no la necesites para ahorrar energía.",
+            "step9": "Si es necesario, consulta al anfitrión o al manual del usuario para obtener más ayuda."
+        }
+
+    },
+
+    "outer_lights": {
+        
+        "en": {
+            "outerLights": "OUTER LIGHTS",
+            "lightsInstructions": "Lights instructions & maintenance",
+            "instructionsTitle": "Instructions",
+            "step1": "Find the switch on the pillar in the outer lunch area.",
+            "step2": "Flip the switch up to turn on the decorative lights.",
+            "step3": "Ensure the lights are on.",
+            "step4": "Flip the switch down to turn off the lights when done."
+        },
+
+        "es": {
+            "outerLights": "LUZ EXTERIOR",
+            "lightsInstructions": "Instrucciones y mantenimiento de luces",
+            "instructionsTitle": "Instrucciones",
+            "step1": "Encuentra el interruptor en el pilar en el área exterior de almuerzo.",
+            "step2": "Voltea el interruptor hacia arriba para encender las luces decorativas.",
+            "step3": "Asegúrate de que las luces estén encendidas.",
+            "step4": "Voltea el interruptor hacia abajo para apagar las luces cuando hayas terminado."
+        }
+
+    },
+
+    "boiler": {
+
+        "en": {
+            "boilerTitle": "BOILER",
+            "boilerInstructions": "Boiler instructions & maintenance",
+            "boilerBulletTitle": "Instructions",
+            "boilerStep1": "Find the boiler's controls, usually near the unit.",
+            "boilerStep2": "Flip the ON/OFF switch or turn the knob to activate the boiler.",
+            "boilerStep3": "Ensure the thermostat is set to your desired temperature.",
+            "boilerStep4": "Watch for the boiler's burner igniting to heat water.",
+            "boilerStep5": "Use the temperature control to adjust hot water temperature if needed.",
+            "boilerStep6": "When finished, switch off the boiler.",
+            "boilerStep7": "Be aware of safety features and procedures, including gas leak detection."
+        },
+
+        "es":{
+            "boilerTitle": "BOILER",
+            "boilerInstructions": "Instrucciones y mantenimiento de boiler",
+            "boilerBulletTitle": "Instrucciones",
+            "boilerStep1": "Encuentra los controles de boiler, generalmente cerca de la unidad.",
+            "boilerStep2": "Voltea el interruptor de ENCENDIDO/APAGADO o gira la perilla para activar boiler.",
+            "boilerStep3": "Asegúrate de que el termostato esté ajustado a la temperatura deseada.",
+            "boilerStep4": "Observa el encendido del quemador de el boiler para calentar el agua.",
+            "boilerStep5": "Utiliza el control de temperatura para ajustar la temperatura del agua caliente si es necesario.",
+            "boilerStep6": "Cuando hayas terminado, apaga el boiler.",
+            "boilerStep7": "Ten en cuenta las características y procedimientos de seguridad, incluida la detección de fugas de gas."
+        }
+
+    }
+      
+      
 
 
 

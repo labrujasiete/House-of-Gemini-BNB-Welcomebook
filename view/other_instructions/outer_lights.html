@@ -9,6 +9,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/hog_favicon.png">
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="../../js/loadLanguage.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+        
+            const storedLanguage = localStorage.getItem('language') || 'en';
+
+            if(storedLanguage == 'en'){
+                document.getElementById('video-source').src = "../../assets/video/house-of-gemini-light-EN.mp4";
+            }else if(storedLanguage == 'es'){
+                document.getElementById('video-source').src = "../../assets/video/house-of-gemini-light-ES.mp4";
+            }
+
+        });
+
+    </script>
 </head>
 <body>
     
@@ -16,10 +32,10 @@
         <a href="../../index.html">
             <img src="../../assets/icons/back_brown.png" alt="">
         </a>
-        <span>OUTER LIGHTS</span>
+        <span id="outerLights">OUTER LIGHTS</span>
     </div>
 
-    <span class="navigationSubTitle">Lights instructions & maintenance</span>
+    <span id="lightsInstructions" class="navigationSubTitle">Lights instructions & maintenance</span>
 
     <div class="spacer"></div>
     
@@ -31,7 +47,7 @@
             preload="auto"
             data-setup="{}"
             >
-            <source src="../../assets/video/house-of-gemini-light-EN.mp4" type="video/mp4" />
+            <source id="video-source" src="../../assets/video/house-of-gemini-light-EN.mp4" type="video/mp4" />
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a
                 web browser that
@@ -46,13 +62,13 @@
     
     <div class="spacer"></div>
     
-    <div class="bulletTitle">Instructions</div>    
+    <div id="instructionsTitle" class="bulletTitle">Instructions</div>
 
     <ol>
-        <li>Find the switch on the pillar in the outer lunch area.</li>
-        <li>Flip the switch up to turn on the decorative lights.</li>
-        <li>Ensure the lights are on.</li>
-        <li>Flip the switch down to turn off the lights when done.</li>
+        <li id="step1">Find the switch on the pillar in the outer lunch area.</li>
+        <li id="step2">Flip the switch up to turn on the decorative lights.</li>
+        <li id="step3">Ensure the lights are on.</li>
+        <li id="step4">Flip the switch down to turn off the lights when done.</li>
     </ol>
 
     <div class="spacer"></div>

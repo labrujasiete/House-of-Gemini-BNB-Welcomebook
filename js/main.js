@@ -60,6 +60,11 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         const storedLanguage = localStorage.getItem('language') || 'en';
+        if(storedLanguage == 'en'){
+          checkBox.checked = false;
+        }else if(storedLanguage == 'es'){
+          checkBox.checked = true;
+        }
         replaceTextContent(storedLanguage, languageData);
       });
 

@@ -9,6 +9,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/hog_favicon.png">
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="../../js/loadLanguage.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+        
+            const storedLanguage = localStorage.getItem('language') || 'en';
+
+            if(storedLanguage == 'en'){
+                document.getElementById('video-source').src = "../../assets/video/house-of-gemini_fire-pit-instructions_EN.mp4";
+            }else if(storedLanguage == 'es'){
+                document.getElementById('video-source').src = "../../assets/video/house-of-gemini_fire-pit-instructions_ES.mp4";
+            }
+
+        });
+
+    </script>
 </head>
 <body>
     
@@ -16,10 +32,10 @@
         <a href="../../index.html">
             <img src="../../assets/icons/back_brown.png" alt="">
         </a>
-        <span>FIRE PIT</span>
+        <span id="mainTitle">FIRE PIT</span>
     </div>
 
-    <span class="navigationSubTitle">Fire pit instructions & maintenance</span>
+    <span class="navigationSubTitle" id="mainSubtitle">Fire pit instructions & maintenance</span>
 
     <div class="spacer"></div>
     
@@ -27,7 +43,7 @@
     
     <div class="spacer"></div>
     
-    <span class="mainMessage">Welcome to our cozy outdoor space featuring a gas fire pit! Please enjoy the warmth and ambiance responsibly. Follow the provided instructions to safely operate the fire pit, ensuring a delightful experience for all. If you have any questions or concerns, feel free to reach out to us. Thank you for being our guest and enjoy your time by the fire!</span>
+    <span class="mainMessage" id="mainMessage">Welcome to our cozy outdoor space featuring a gas fire pit! Please enjoy the warmth and ambiance responsibly. Follow the provided instructions to safely operate the fire pit, ensuring a delightful experience for all. If you have any questions or concerns, feel free to reach out to us. Thank you for being our guest and enjoy your time by the fire!</span>
     
     <div class="spacer"></div>
     
@@ -39,7 +55,8 @@
             preload="auto"
             data-setup="{}"
         >
-            <source src="../../assets/video/house-of-gemini_fire-pit-instructions_EN.mp4" type="video/mp4" />
+            <source id="video-source" src="../../assets/video/house-of-gemini_fire-pit-instructions_EN.mp4" type="video/mp4" />
+            <!-- <source id="video-source" src="" type="video/mp4" /> -->
             <p class="vjs-no-js">
             To view this video please enable JavaScript, and consider upgrading to a
             web browser that
@@ -55,29 +72,30 @@
     
     <div class="spacer"></div>
 
-    <div class="bulletTitle">To Turn On</div>    
+    <div class="bulletTitle" id="bulletTitle01">To Turn On</div>    
 
     <ol>
-        <li>Plug the Gas Tank</li>
-        <li>Ensure the gas tank is securely connected to the fire pit.</li>
-        <li>Turn the valve on the gas tank counterclockwise to open it fully.</li>
-        <li>Locate the gas valve on the fire pit and push it to allow gas flow.</li>
-        <li>Hold a lighter near the gas exit point on the fire pit</li>
-        <li>Turn the gas wheel on the fire pit to open the valve slightly</li>
-        <li>Once lit, adjust the flame intensity using the gas valve on the fire pit.</li>
-        <li>Exercise caution and avoid overextending the flame.</li>
+        <li id="step1">Plug the Gas Tank</li>
+        <li id="step2">Ensure the gas tank is securely connected to the fire pit.</li>
+        <li id="step3">Turn the valve on the gas tank counterclockwise to open it fully.</li>
+        <li id="step4">Locate the gas valve on the fire pit and push it to allow gas flow.</li>
+        <li id="step5">Hold a lighter near the gas exit point on the fire pit</li>
+        <li id="step6">Turn the gas wheel on the fire pit to open the valve slightly</li>
+        <li id="step7">Once lit, adjust the flame intensity using the gas valve on the fire pit.</li>
+        <li id="step8">Exercise caution and avoid overextending the flame.</li>
     </ol>
-
-    <div class="bulletTitle">To Turn Off</div>    
-
+    
+    <div class="bulletTitle" id="bulletTitle02">To Turn Off</div>    
+    
     <ol>
-        <li>To turn off the fire pit, close the gas valve on both the fire pit and the gas tank.</li>
-        <li>Allow the fire pit to cool down completely before covering or moving it.</li>
-        <li>Always keep flammable materials away from the fire pit.</li>
-        <li>Never leave the fire pit unattended while in use.</li>
-        <li>If you smell gas or suspect a leak, turn off the gas immediately and contact the host for assistance.</li>
-        <li>By following these steps, you can safely enjoy the ambiance and warmth of the gas fire pit.</li>
+        <li id="step9">To turn off the fire pit, close the gas valve on both the fire pit and the gas tank.</li>
+        <li id="step10">Allow the fire pit to cool down completely before covering or moving it.</li>
+        <li id="step11">Always keep flammable materials away from the fire pit.</li>
+        <li id="step12">Never leave the fire pit unattended while in use.</li>
+        <li id="step13">If you smell gas or suspect a leak, turn off the gas immediately and contact the host for assistance.</li>
+        <li id="step14">By following these steps, you can safely enjoy the ambiance and warmth of the gas fire pit.</li>
     </ol>
+    
 
 
 
