@@ -393,11 +393,7 @@ body{
 }
 
 .footer{
-    width: 100%;
-    padding: 3vh;
-    padding-bottom: 10vh;
-    margin-top: 10vh;
-    background-color: var(--primary-color);
+    padding-bottom: 20vh;
 
 }
 
@@ -496,6 +492,11 @@ body{
     padding-bottom: 9px;
     opacity: .75;
     font-size: var(--font-size-md);
+  }
+
+  .brujaLabel{
+    width: 220px;
+    margin-top: 10vh;
   }
 
 
